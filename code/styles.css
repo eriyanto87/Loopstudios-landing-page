@@ -1,29 +1,182 @@
 @import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:wght@300&display=swap');
 
-@media all and (min-width: 375px) {
- body {
-   height: 100vh;
-   width: 100%;
+@media all and (max-width: 375px) {
 
-   background-image: url(../images/mobile/image-hero.jpg); 
+* {
+ margin: 0;
+}
 
-   background-size: cover;
-   background-repeat: no-repeat;
- }
+footer {
+    background-color: black; 
+    text-align: center;
+}
 
- h1 {
+footer h1 {
+    padding: 50px 0px 35px 0px;
+    color:hsl(0, 0%, 100%);
+    font-family: 'Alata', sans-serif;
+}
+
+footer p {
+    padding-bottom: 35px;
+    color:hsl(0, 0%, 100%);
+    font-family: 'Alata', sans-serif;
+    font-weight: lighter;
+}
+
+img {
+    margin-right: 35px;
+    width: 24px;
+    height:  16px;
+    margin-top: 35px;
+}
+
+.header {
+    height: 100vh;
+    width: 100%;
+ 
+    background-image: url(../images/mobile/image-hero.jpg); 
+ 
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+ .logo {
     color:hsl(0, 0%, 100%);
     font-family: 'Alata', sans-serif;
     /* font-family: 'Josefin Sans', sans-serif; */
     margin-left: 25px;
+    margin-top: 25px;
  }
 
- /* img {
-     margin-right: 20px;
- } */
+ footer img {
+     margin: 15px 15px 15px 0px;
+     height: auto;
+ }
 
- .header {
-     margin-top: 35px;
+ .copyright {
+    color: hsl(0, 0%, 55%);
+ }
+
+ .nav {
+     display: flex; 
+     justify-content: space-between;
+ }
+ 
+ .text {
+    color:hsl(0, 0%, 100%);
+    font-family: 'Josefin Sans', sans-serif;
+    border: 3px solid #f1f1f1;
+    margin: 170px 20px;
+    display: flex;
+    align-items: center;
+    max-width: 80%;
+    font-size: 11vw;
+    padding: 20px;
+    text-align: left;
+    
+ }
+
+ .image-1 {
+    text-align: center;
+ }
+
+ .image-1 img {
+    margin: 100px 20px 50px 20px;
+    height: 100%;
+    width: 90%;
+ }
+
+ .image-1 h1 {
+    margin: 0px 20px 30px 20px;
+    font-size: 9vw;
+    font-family: 'Josefin Sans', sans-serif;
+ }
+
+ .image-1 h4 {
+    border: 2px solid black;
+    margin: 20px 120px 100px 120px;
+    padding: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 900;
+ }
+
+ .image-1 p {
+     margin: 0px 30px 100px 30px;
+     color: hsl(0, 0%, 55%);
+     font-family: 'Alata', sans-serif;
+     line-height: 25px;
+ }
+
+ .image-deep-earth {
+    margin: 0px 20px 30px 20px; 
+    background-size: 95% 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.20), rgba(0, 0, 0, 0.15)), url(../images/mobile/image-deep-earth.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+ }
+
+ .image-night-arcade {
+    margin: 0px 20px 30px 20px; 
+    background-size: 95% 100%;
+    background-image:  linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.15)),url(../images/mobile/image-night-arcade.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+ }
+
+ .image-soccer-team {
+    margin: 0px 20px 30px 20px; 
+    background-size: 95% 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.20), rgba(0, 0, 0, 0.15)), url(../images/mobile/image-soccer-team.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+ }
+
+ .image-the-grid {
+    margin: 0px 20px 30px 20px; 
+    background-size: 95% 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.15)), url(../images/mobile/image-grid.jpg);
+    background-position: center;
+    background-repeat: no-repeat; 
+ }
+
+ .image-from-above {
+    margin: 0px 20px 30px 20px; 
+    background-size: 95% 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.15)), url(../images/mobile/image-from-above.jpg);
+    background-position: center;
+    background-repeat: no-repeat;  
+ }
+
+ .image-pocket-borealis {
+    margin: 0px 20px 30px 20px; 
+    background-size: 95% 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.15)), url(../images/mobile/image-pocket-borealis.jpg);
+    background-position: center;
+    background-repeat: no-repeat;  
+ }
+
+ .image-curiosity {
+    margin: 0px 20px 30px 20px; 
+    background-size: 95% 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.15)), url(../images/mobile/image-curiosity.jpg);
+    background-position: center;
+    background-repeat: no-repeat;  
+ }
+
+ .image-fisheye {
+    margin: 0px 20px 30px 20px; 
+    background-size: 95% 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.15)), url(../images/mobile/image-fisheye.jpg);
+    background-position: center;
+    background-repeat: no-repeat;  
+ }
+
+ .images-text {
+    padding: 45px 0px 20px 45px;
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: left;
+    color: white;
  }
 }
