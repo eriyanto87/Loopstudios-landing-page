@@ -1,3 +1,4 @@
+/* fonts */
 @import url("https://fonts.googleapis.com/css2?family=Alata&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:wght@300&display=swap");
 
@@ -98,17 +99,19 @@ footer p {
   font-family: "Josefin Sans", sans-serif;
 }
 
-@media screen and (max-width: 650px) and (min-width: 250px) {
-  .desktop-footer-2 {
-    display: none;
-  }
-
+/* mobile first */
+@media screen and (max-width: 1009px) and (min-width: 250px) {
   footer {
     text-align: center;
   }
 
   footer h1 {
     padding: 50px 0px 35px 0px;
+  }
+
+  footer img {
+    margin: 15px 15px 15px 0px;
+    height: auto;
   }
 
   footer p {
@@ -130,40 +133,16 @@ footer p {
     display: none;
   }
 
+  .desktop-footer-2 {
+    display: none;
+  }
+
   .header {
     height: 100vh;
     width: 100%;
     background-image: url(./images/mobile/image-hero.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-  }
-
-  .logo {
-    margin-left: 25px;
-    margin-top: 25px;
-  }
-
-  footer img {
-    margin: 15px 15px 15px 0px;
-    height: auto;
-  }
-
-  .nav {
-    display: flex;
-    justify-content: space-between;
-  }
-
-  .text {
-    color: hsl(0, 0%, 100%);
-    font-family: "Josefin Sans", sans-serif;
-    border: 3px solid #f1f1f1;
-    margin: 170px 20px;
-    display: flex;
-    align-items: center;
-    max-width: 80%;
-    font-size: 11vw;
-    padding: 20px;
-    text-align: left;
   }
 
   .image-1 {
@@ -179,12 +158,6 @@ footer p {
   .image-1 h1 {
     margin: 0px 20px 30px 20px;
     font-size: 3rem;
-  }
-
-  .see-all-mobile {
-    border: 2px solid black;
-    margin: 20px 120px 100px 120px;
-    padding: 20px;
   }
 
   .image-1 p {
@@ -256,23 +229,58 @@ footer p {
     color: white;
   }
 
+  .logo {
+    margin-left: 25px;
+    margin-top: 25px;
+  }
+
+  .nav {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .text {
+    color: hsl(0, 0%, 100%);
+    font-family: "Josefin Sans", sans-serif;
+    border: 3px solid #f1f1f1;
+    margin: 170px 20px;
+    display: flex;
+    align-items: center;
+    max-width: 80%;
+    font-size: 11vw;
+    padding: 20px;
+    text-align: left;
+  }
+
+  .see-all-mobile {
+    border: 2px solid black;
+    margin: 20px 120px 100px 120px;
+    padding: 20px;
+  }
+
   .see-all-desktop {
     display: none;
   }
 }
 
-@media only screen and (min-width: 651px) {
+/* desktop view */
+@media only screen and (min-width: 1010px) {
+ footer h1 {
+        font-size: 1.5rem;
+        padding: 45px 0px 0px 150px;
+      }
+
+  nav {
+    display: flex;
+    justify-content: space-between;
+  }
+
   span {
     color: hsl(0, 0%, 100%);
     font-size: smaller;
     font-family: "Alata", sans-serif;
     margin-right: 30px;
     font-weight: lighter;
-  }
-
-  nav {
-    display: flex;
-    justify-content: space-between;
   }
 
   .container {
@@ -290,16 +298,19 @@ footer p {
   .desktop-creations {
     display: flex;
     justify-content: space-between;
-    padding-left: 150px;
+    padding: 100px 0px 0px 150px;
   }
 
-  .see-all-desktop {
-    border: 1.5px solid black;
-    font-size: 13px;
+  .desktop-footer,
+  .desktop-footer-2 {
     display: flex;
-    padding: 10px 38px;
-    margin: 0px 100px 100px 0px;
+    justify-content: space-between;
   }
+
+  .desktop-footer-2 {
+    margin: 20px 105px;
+    padding-bottom: 50px;
+}
 
   .desktop-view {
     display: flex;
@@ -310,6 +321,21 @@ footer p {
     display: flex;
     flex-wrap: wrap;
     padding: 0px 85px 150px 85px;
+  }
+
+  .footer-nav a {
+    color: hsl(0, 0%, 100%);
+    text-decoration: none;
+    margin-left: 20px;
+    padding: 0px 0px 0px 20px;
+  }
+
+  .header {
+    background-image: url(./images/desktop/image-hero.jpg);
+    width: 100%;
+    height: 100%;
+    padding-bottom: 40px;
+    background-size: cover;
   }
 
   .images {
@@ -325,51 +351,52 @@ footer p {
     color: white;
   }
 
-  .header {
-    background-image: url(./images/desktop/image-hero.jpg);
-    width: 100%;
-    height: 100%;
-    padding-bottom: 40px;
-  }
-
   .image-deep-earth {
     background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.15)),
       url(./images/desktop/image-deep-earth.jpg);
+      background-size: cover;
   }
 
   .image-night-arcade {
     background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.15)),
       url(./images/desktop/image-night-arcade.jpg);
+      background-size: cover;
   }
 
   .image-soccer-team {
     background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.15)),
       url(./images/desktop/image-soccer-team.jpg);
+      background-size: cover;
   }
 
   .image-the-grid {
     background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.15)),
       url(./images/desktop/image-grid.jpg);
+      background-size: cover;
   }
 
   .image-from-above {
     background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.15)),
       url(./images/desktop/image-from-above.jpg);
+      background-size: cover;
   }
 
   .image-pocket-borealis {
     background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.15)),
       url(./images/desktop/image-pocket-borealis.jpg);
+      background-size: cover;
   }
 
   .image-curiosity {
     background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.15)),
       url(./images/desktop/image-curiosity.jpg);
+      background-size: cover;
   }
 
   .image-fisheye {
     background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.15)),
       url(./images/desktop/image-fisheye.jpg);
+      background-size: cover;
   }
 
   .image-1 img {
@@ -377,12 +404,28 @@ footer p {
     width: 50%;
   }
 
+  .logo {
+    padding: 50px 0px 0px 100px;
+  }
+
   .mobile-view {
     display: none;
   }
 
-  .logo {
-    padding: 30px 0px 0px 100px;
+  .see-all-desktop {
+    border: 1.5px solid black;
+    font-size: 13px;
+    display: flex;
+    padding: 10px 38px;
+    margin: 0px 100px 100px 0px;
+  }
+
+  .socials {
+    padding: 50px 110px 0px 0px;
+  }
+
+  .socials img {
+      margin-left: 20px;
   }
 
   .text {
@@ -394,31 +437,5 @@ footer p {
     font-size: 5.5vw;
     padding: 30px;
     text-align: left;
-  }
-
-  .desktop-footer,
-  .desktop-footer-2 {
-    display: flex;
-    justify-content: space-between;
-  }
-
-  .desktop-footer-2 {
-    margin: 20px 105px;
-  }
-
-  footer h1 {
-    font-size: 1.5rem;
-    padding: 50px 0px 0px 150px;
-  }
-
-  .socials {
-    padding: 35px 105px 0px 0px;
-  }
-
-  .footer-nav a {
-    color: hsl(0, 0%, 100%);
-    text-decoration: none;
-    margin-left: 20px;
-    padding: 0px 0px 0px 20px;
   }
 }
