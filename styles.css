@@ -6,6 +6,10 @@
   margin: 0;
 }
 
+html,body{
+    overflow-x: hidden;
+}
+
 footer {
   background-color: black;
   font-family: "Alata", sans-serif;
@@ -263,8 +267,12 @@ footer p {
   }
 }
 
+@media screen and (min-width: 250px) {
+
+}
+
 /* desktop view */
-@media only screen and (min-width: 1010px) {
+@media screen and (min-width: 1010px) {
  footer h1 {
         font-size: 1.5rem;
         padding: 45px 0px 0px 150px;
@@ -286,13 +294,19 @@ footer p {
   .container {
     display: flex;
     flex-direction: row;
+    margin: 0 auto;
   }
 
   .container-second-section {
     background: hsl(0, 0%, 100%);
     padding: 70px 0px 0px 50px;
     width: 35%;
-    margin: 350px 0px 0px -100px;
+    margin: 350px 0px 0px -205px;
+  }
+
+  .container-second-section h1 {
+      font-size: 2.5rem;
+      padding: 0px 0px 35px 30px;
   }
 
   .desktop-creations {
@@ -401,7 +415,8 @@ footer p {
 
   .image-1 img {
     padding: 150px 0px 0px 150px;
-    width: 50%;
+    width: 65%;
+    margin: 0 auto;
   }
 
   .logo {
