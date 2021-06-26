@@ -168,6 +168,7 @@ footer p {
     color: hsl(0, 0%, 55%);
     font-family: "Alata", sans-serif;
     line-height: 25px;
+    font-size: 1.2rem;
   }
 
   .image-deep-earth {
@@ -232,7 +233,7 @@ footer p {
     text-align: left;
     color: white;
   }
-
+  
   .logo {
     margin-left: 25px;
     margin-top: 25px;
@@ -267,10 +268,6 @@ footer p {
   }
 }
 
-@media screen and (min-width: 250px) {
-
-}
-
 /* desktop view */
 @media screen and (min-width: 1010px) {
  footer h1 {
@@ -299,9 +296,9 @@ footer p {
 
   .container-second-section {
     background: hsl(0, 0%, 100%);
-    padding: 70px 0px 0px 50px;
-    width: 35%;
-    margin: 350px 0px 0px -205px;
+    padding: 70px 70px 0px 70px;
+    width: 43%;
+    margin: 385px 0px 0px -205px;
   }
 
   .container-second-section h1 {
@@ -417,6 +414,10 @@ footer p {
     padding: 150px 0px 0px 150px;
     width: 65%;
     margin: 0 auto;
+  }
+
+  .image-1 p {
+    margin: 0px 30px 0px 30px;
   }
 
   .logo {
