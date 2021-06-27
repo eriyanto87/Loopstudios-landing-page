@@ -30,6 +30,7 @@ footer p {
 
 .image-1 h1 {
   font-family: "Josefin Sans", sans-serif;
+  font-weight: 300;
 }
 
 .image-1 h4 {
@@ -40,8 +41,8 @@ footer p {
 .image-1 p {
   color: hsl(0, 0%, 55%);
   font-family: "Alata", sans-serif;
-  line-height: 25px;
-  margin: 0px 30px 100px 30px;
+  line-height: 28px;
+  margin: 0px 30px 110px 30px;
 }
 
 .image-deep-earth {
@@ -123,10 +124,9 @@ footer p {
   }
 
   img {
-    margin-right: 35px;
+    margin: 35px 35px 0px 0px;
     width: 24px;
     height: 16px;
-    margin-top: 35px;
   }
 
   .container {
@@ -154,81 +154,80 @@ footer p {
   }
 
   .image-1 img {
-    margin: 100px 20px 50px 20px;
+    margin: 100px 0px 35px 0px;
     height: 100%;
-    width: 90%;
+    width: 87%;
   }
 
   .image-1 h1 {
-    margin: 0px 20px 30px 20px;
-    font-size: 3rem;
+    margin: 25px 20px 50px 20px;
+    font-size: 2.5rem;
   }
 
   .image-1 p {
-    color: hsl(0, 0%, 55%);
-    font-family: "Alata", sans-serif;
-    line-height: 25px;
+    line-height: 30px;
+    font-weight: lighter;
     font-size: 1.2rem;
   }
 
   .image-deep-earth {
-    margin: 0px 20px 30px 20px;
-    background-size: 95% 100%;
+    margin: 0px 20px 25px 20px;
+    background-size: 100%;
     background-position: center;
     background-repeat: no-repeat;
   }
 
   .image-night-arcade {
-    margin: 0px 20px 30px 20px;
-    background-size: 95% 100%;
+    margin: 0px 20px 25px 20px;
+    background-size: 100%;
     background-position: center;
     background-repeat: no-repeat;
   }
 
   .image-soccer-team {
-    margin: 0px 20px 30px 20px;
-    background-size: 95% 100%;
+    margin: 0px 20px 25px 20px;
+    background-size: 100%;
     background-position: center;
     background-repeat: no-repeat;
   }
 
   .image-the-grid {
-    margin: 0px 20px 30px 20px;
-    background-size: 95% 100%;
+    margin: 0px 20px 25px 20px;
+    background-size: 100%;
     background-position: center;
     background-repeat: no-repeat;
   }
 
   .image-from-above {
-    margin: 0px 20px 30px 20px;
-    background-size: 95% 100%;
+    margin: 0px 20px 25px 20px;
+    background-size: 100%;
     background-position: center;
     background-repeat: no-repeat;
   }
 
   .image-pocket-borealis {
-    margin: 0px 20px 30px 20px;
-    background-size: 95% 100%;
+    margin: 0px 20px 25px 20px;
+    background-size: 100%;
     background-position: center;
     background-repeat: no-repeat;
   }
 
   .image-curiosity {
-    margin: 0px 20px 30px 20px;
-    background-size: 95% 100%;
+    margin: 0px 20px 25px 20px;
+    background-size: 100%;
     background-position: center;
     background-repeat: no-repeat;
   }
 
   .image-fisheye {
-    margin: 0px 20px 30px 20px;
-    background-size: 95% 100%;
+    margin: 0px 20px 25px 20px;
+    background-size: 100%;
     background-position: center;
     background-repeat: no-repeat;
   }
 
   .images-text {
-    padding: 45px 0px 20px 45px;
+    padding: 45px 0px 20px 35px;
     font-family: "Josefin Sans", sans-serif;
     text-align: left;
     color: white;
@@ -258,9 +257,11 @@ footer p {
   }
 
   .see-all-mobile {
+    font-size: 13px;
     border: 2px solid black;
-    margin: 20px 120px 100px 120px;
-    padding: 20px;
+    letter-spacing: 1.7px;
+    margin: 35px 135px 100px 135px;
+    padding: 9px 0px;
   }
 
   .see-all-desktop {
