@@ -97,6 +97,44 @@ footer p {
   font-family: "Alata", sans-serif;
 }
 
+.logo-menu {
+  color: hsl(0, 0%, 100%);
+  font-family: "Alata", sans-serif;
+  font-size: 1.5rem;
+  margin: 48px 0px 0px 25px;
+}
+
+.close {
+position: absolute;
+width: 20px;
+height: 20px;
+padding-left: 329px;
+padding-top: 25px;
+}
+
+.menu {
+    background-color: black;
+    height: 100vh;
+    margin: 0px;
+  }
+
+  .menu-items {
+    position: absolute;
+    width: 129px;
+    height: 221px;
+    padding-left: 24px;
+    padding-top: 223px;
+  }
+
+  .menu-items h1{
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 25px;
+    color: hsl(0, 0%, 100%);
+    padding-bottom: 24px;       
+  }
+
 .text {
   font-size: 3.5rem;
   width: auto;
@@ -161,7 +199,7 @@ footer p {
 
   .image-1 h1 {
     margin: 25px 20px 50px 20px;
-    font-size: 2.5rem;
+    font-size: 2.3rem;
   }
 
   .image-1 p {
@@ -171,56 +209,56 @@ footer p {
   }
 
   .image-deep-earth {
-    margin: 0px 20px 25px 20px;
-    background-size: 100%;
+    margin: 0px 20px 20px 20px;
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
   }
 
   .image-night-arcade {
-    margin: 0px 20px 25px 20px;
-    background-size: 100%;
+    margin: 0px 20px 20px 20px;
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
   }
 
   .image-soccer-team {
-    margin: 0px 20px 25px 20px;
-    background-size: 100%;
+    margin: 0px 20px 20px 20px;
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
   }
 
   .image-the-grid {
-    margin: 0px 20px 25px 20px;
-    background-size: 100%;
+    margin: 0px 20px 20px 20px;
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
   }
 
   .image-from-above {
-    margin: 0px 20px 25px 20px;
-    background-size: 100%;
+    margin: 0px 20px 20px 20px;
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
   }
 
   .image-pocket-borealis {
-    margin: 0px 20px 25px 20px;
-    background-size: 100%;
+    margin: 0px 20px 20px 20px;
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
   }
 
   .image-curiosity {
-    margin: 0px 20px 25px 20px;
+    margin: 0px 20px 20px 20px;
     background-size: 100%;
     background-position: center;
     background-repeat: no-repeat;
   }
 
   .image-fisheye {
-    margin: 0px 20px 25px 20px;
+    margin: 0px 20px 20px 20px;
     background-size: 100%;
     background-position: center;
     background-repeat: no-repeat;
